@@ -1,0 +1,96 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# === Spring Boot Specific ===
+/target/
+/build/
+/out/
+
+# === Maven ===
+.mvn/
+!**/src/main/**/.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+# === Gradle ===
+.gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+bin/
+
+# === VS Code ===
+.vscode/
+
+# === macOS ===
+.DS_Store
+
+# === Linux ===
+*~
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs ===
+*.log
+logs/
+**/logs/
+*.tmp
+
+# === Docker ===
+*.env
+docker-compose.override.yml
+.docker/
+
+# === Coverage / Testing ===
+/coverage/
+/test-output/
+/jacoco.exec
+*.ec
+*.exec
+
+# === Temporary files ===
+*.swp
+*.swo
+*.bak
+
+# === Environment files ===
+.env
+.env.*
+
+# === Database ===
+*.mv.db
+*.h2.db
+*.sqlite
+
+# === Local Config Files ===
+application-local.yml
+application-local.properties
+
+# === Node (if using frontend) ===
+node_modules/
+dist/
+build/
+
+# === Others (you can customize as needed) ===
+/tmp/
+*.bak
+*.old

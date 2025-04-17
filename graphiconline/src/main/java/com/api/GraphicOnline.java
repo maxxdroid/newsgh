@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GhanaWebApplication {
+public class GraphicOnline {
     public static void main(String[] args) {
-        SpringApplication.run(GhanaWebApplication.class, args);
+        SpringApplication.run(GraphicOnline.class, args);
     }
 }
